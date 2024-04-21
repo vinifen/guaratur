@@ -1,0 +1,35 @@
+/*
+	Fixa o rodapé
+*/
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.card-panel > h4 {
+    font-size: clamp(1.3em, 3vw, 2em);
+}
+
+.navAlign{
+    margin: 0 4em 0 4em;
+}
+@media screen and (max-width: 100px){
+    .navAlign {
+        margin-left: 0;
+    }  
+}
+
+.card-content {
+    height: 220px;
+}
+
+.imgh {
+    height: 200px;
+    object-fit: cover;
+}
