@@ -5032,7 +5032,7 @@ button.btn-floating {
 .btn-flat {
   box-shadow: none;
   background-color: transparent;
-  color: #343434;
+  color: #42A5F5;
   cursor: pointer;
   transition: background-color 0.2s;
 }
@@ -6859,7 +6859,7 @@ input[type=range]::-ms-thumb {
   color: #fff;
 }
 .sidenav li > a.btn-flat {
-  color: #343434;
+  color: #42A5F5;
 }
 .sidenav li > a.btn:hover, .sidenav li > a.btn-small:hover, .sidenav li > a.btn-large:hover {
   background-color: #5ab1f6;

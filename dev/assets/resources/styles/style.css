@@ -12,17 +12,8 @@ main {
     flex: 1 0 auto;
 }
 
-.card-panel > h4 {
+.card-panel > h4{
     font-size: clamp(1.3em, 3vw, 2em);
-}
-
-.navAlign{
-    margin: 0 4em 0 4em;
-}
-@media screen and (max-width: 100px){
-    .navAlign {
-        margin-left: 0;
-    }  
 }
 
 .card-content {
