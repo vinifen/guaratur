@@ -13,14 +13,37 @@ main {
 }
 
 .card-panel > h4{
-    font-size: clamp(1.3em, 3vw, 2em);
-}
-
-.card-content {
-    height: 220px;
+    font-size: clamp(1.3em, 3vw, 1.5em);
 }
 
 .imgh {
     height: 200px;
     object-fit: cover;
 }
+
+#inicio, #busca, #ponto, #guara, #galeria, #contato{
+    font-size: clamp(0.5em, 1.2vw, 1.2em);
+}
+
+#hotel1, #hotel2, #hotel3, #hotel4, #hotel5, #hotel6{
+    height: 300px;
+    font-size: clamp(1.1em, 2vw, 1.35em);
+}
+
+@media screen and (max-width: 900px){
+    #hotel1, #hotel2, #hotel3, #hotel4, #hotel5, #hotel6{
+        height: 360px;
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #hotel1, #hotel2, #hotel3, #hotel4, #hotel5, #hotel6{
+        height: 140px;
+        font-size: 2em;
+    }
+}
+
+#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8{
+    width: 400px;
+} 
